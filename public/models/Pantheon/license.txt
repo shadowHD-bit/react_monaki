@@ -1,0 +1,11 @@
+Model Information:
+* title:	Paris Panthéon Mascaron n°2
+* source:	https://sketchfab.com/3d-models/paris-pantheon-mascaron-n2-f6ef919ae3f64072883d78ec0f5696f2
+* author:	3DSCANFR (sdrn) (https://sketchfab.com/3DSCANFR)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Paris Panthéon Mascaron n°2" (https://sketchfab.com/3d-models/paris-pantheon-mascaron-n2-f6ef919ae3f64072883d78ec0f5696f2) by 3DSCANFR (sdrn) (https://sketchfab.com/3DSCANFR) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
