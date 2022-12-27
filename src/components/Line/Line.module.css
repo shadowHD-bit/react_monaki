@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.marquee_container {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px 0px;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee {
+  font-family: "Unbounded", cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  display: inline;
+  margin: 0px 80px;
+  white-space: pre;
+  animation: marquee 15.5s infinite linear;
+}
+
+.word {
+  margin: 0px 100px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .marquee {
+    font-family: "Unbounded", cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}

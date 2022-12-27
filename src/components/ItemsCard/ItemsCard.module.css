@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+
+.items {
+  background-color: #7843e8;
+  position: relative;
+  padding: 50px 30px;
+}
+
+.items__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__container_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.text_title {
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+.text_subtitle {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  font-family: "Unbounded", cursive;
+}
+
+.text {
+  width: 300px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 20px;
+  color: #dcdcdc;
+  font-family: "Unbounded", cursive;
+}
+
+@media screen and (max-width: 1550px) {
+  .card__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .card__container_text {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .text_title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .text_subtitle {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .items__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__container {
+    margin-bottom: 50px;
+  }
+
+  .text_title {
+    margin-bottom: 0;
+  }
+
+  .text_subtitle {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+
+.rare_card {
+  width: 545px;
+  height: 732px;
+  background: #fff89f;
+  border: 1px solid #000000;
+  box-shadow: 8px 8px 0px #000000;
+  border-radius: 8px;
+  transition: 0.5s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.rare_card:hover {
+  box-shadow: 0px 0px 0px #000000;
+  transition: 0.5s ease;
+}
+
+.rare_card__container {
+  width: auto;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rare_card__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.rare_card__top_timer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text_timer {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: 0.08em;
+  color: #000000;
+  font-family: "Unbounded", cursive;
+}
+
+.rare_card__center {
+  height: auto;
+  padding: 30px 0px;
+  width: 100%;
+}
+
+.rare_card__model {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.rare_card__bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rare_card__bottom_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.current_text {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.08em;
+  color: #000000;
+  font-family: "Unbounded", cursive;
+}
+
+.current_price {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.08em;
+  color: #7843e8;
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+.rare_card__bottom_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.btn_rare {
+  background: #7843e8;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 120px;
+  padding: 10px 0px;
+  font-family: "Unbounded", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.btn_rare:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 1px 1px 0px #7843e8;
+}
+
+@media screen and (max-width: 600px) {
+  .rare_card {
+    width: 445px;
+    height: 732px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .rare_card {
+    width: 305px;
+    height: 532px;
+  }
+
+  .rare_card__model {
+    width: 100%;
+    height: 300px;
+  }
+
+  .rare_card__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rare_card__bottom_right {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .rare_card__bottom_left {
+    width: 100%;
+  }
+
+  .current_text{
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .current_price{
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
